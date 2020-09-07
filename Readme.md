@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
-* Студент: [Vladyslav Shavolin](https://up.htmlacademy.ru/htmlcss/29/user/1485501).
-* Наставник: `Неизвестно`.
+- Студент: [Vladyslav Shavolin](https://up.htmlacademy.ru/htmlcss/29/user/1485501).
+- Наставник: [Оксана Сергеева](https://htmlacademy.ru/profile/oksana).
 
 ---
 
