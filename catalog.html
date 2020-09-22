@@ -3,18 +3,22 @@
   <head>
     <meta charset="utf-8" />
     <title>HTML Academy: Нёрдс</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="index.html"> <img src="logo" alt="Логотип студии" /></a>
-        <ul>
+    <header class="main-header">
+      <nav class="main-navigation">
+        <a class="main-header-logo" href="index.html">
+          <img src="logo" alt="Логотип студии"
+        /></a>
+        <ul class="site-navigation">
           <li><a href="">Студия</a></li>
           <li><a href="">Клиенты</a></li>
-          <li><a href="catalog.html">Магазин</a></li>
+          <li><a href="">Магазин</a></li>
           <li><a href="">Контакты</a></li>
         </ul>
-        <a href="">Корзина</a>
+        <a class="header-cart" href="">Корзина</a>
       </nav>
     </header>
     <main>
@@ -31,7 +35,7 @@
           <ul>
             <li>
               <div>
-                <h3>SEDONA</h3>
+                <h3><a href="">SEDONA</a></h3>
                 <p>Информационный сайт для туристов</p>
                 <a class="button" href="">9 900 ₽</a>
               </div>
@@ -39,7 +43,7 @@
             </li>
             <li>
               <div>
-                <h3>PINK</h3>
+                <h3><a href="">PINK</a></h3>
                 <p>Приложение для настроения</p>
                 <a class="button" href="">9 900 ₽</a>
               </div>
@@ -47,7 +51,7 @@
             </li>
             <li>
               <div>
-                <h3>BORODINSKI</h3>
+                <h3><a href="">BORODINSKI</a></h3>
                 <p>Сайт барбершопа</p>
                 <a class="button" href="">9 900 ₽</a>
               </div>
@@ -55,7 +59,7 @@
             </li>
             <li>
               <div>
-                <h3>MISHKA</h3>
+                <h3><a href="">MISHKA</a></h3>
                 <p>Handmade товары</p>
                 <a class="button" href="">9 900 ₽</a>
               </div>
@@ -63,7 +67,7 @@
             </li>
             <li>
               <div>
-                <h3>Online school</h3>
+                <h3><a href="">Online school</a></h3>
                 <p>Онлайн школа</p>
                 <a class="button" href="">9 900 ₽</a>
               </div>
@@ -71,7 +75,7 @@
             </li>
             <li>
               <div>
-                <h3>Kvast</h3>
+                <h3><a href="">Kvast</a></h3>
                 <p>Сайт крафтового кваса</p>
                 <a class="button" href="">9 900 ₽</a>
               </div>
@@ -95,20 +99,31 @@
         </section>
       </section>
     </main>
-    <footer>
-      <h2>Как нас найти</h2>
-      <img src="info-map" alt="Карта" />
+    <footer class="main-footer page-footer">
+      <section>
+        <div>
+          <h2>Как нас найти</h2>
+          <img src="info-map" alt="map" />
+        </div>
+        <div class="footer-contacts">
+          <h4>NЁRDS DESIGN STUDIO</h4>
+          <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+          <p>тел.<a href="tel:+78122757575">+7(812)275-75-75</a></p>
+          <a class="modal" href="">НАПИШИТЕ НАМ</a>
+          <div id="open-modal" class="modal-window"></div>
+        </div>
+      </section>
       <section>
         <h4>Социальные контакты</h4>
-        <ul>
+        <ul class="footer-social">
           <li>
-            <a href="#">Вконтакте</a>
+            <a class="social-button" href="#">Вконтакте</a>
           </li>
           <li>
-            <a href="#">Фейсбук</a>
+            <a class="social-button" href="#">Фейсбук</a>
           </li>
           <li>
-            <a href="#">Инстаграм</a>
+            <a class="social-button" href="#">Инстаграм</a>
           </li>
         </ul>
         <article>
